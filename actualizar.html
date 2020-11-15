@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Contacto | Tecnológicos BYJ</title>
+    <title>Actualizar Datos | Tecnológicos BYJ</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -62,7 +62,7 @@
 					<div class="col-md-8 clearfix">
 						<div class="shop-menu clearfix pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href="cuenta.html"><i class="fa fa-user"></i> Cuenta</a></li>
+								<li><a href="cuenta.html" class="active"><i class="fa fa-user"></i> Cuenta</a></li>
 								<li><a href="wishlist.html"><i class="fa fa-star"></i> Lista de deseos</a></li>
 								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Revisa</a></li>
 								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Carrito de compras</a></li>
@@ -89,13 +89,21 @@
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
 								<li><a href="index.html" >Inicio</a></li>
+								<li class="dropdown"><a href="#" class="active">Cuenta<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="wishlist.html">Lista de deseos</a></li>
+										<li><a href="actualizar.html" class="active">Actualizar datos</a></li> 
+										<li><a href="contrasena.html">Cambio de Contraseña</a></li> 
+										<li><a href="cart.html">Mis Compras</a></li> 
+										<li><a href="index.html">Cerrar Sesión</a></li> 
+                                    </ul>
+                                </li>
 								<li class="dropdown"><a href="#">Tienda<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
                                         <li><a href="shop.html">Productos</a></li>
 										<li><a href="product-details.html">Detalle del Producto</a></li> 
 										<li><a href="checkout.html">Revisa</a></li> 
-										<li><a href="cart.html">Carrito de compras</a></li> 
-										<li><a href="login.html">Iniciar Sesión</a></li> 
+										<li><a href="cart.html">Carrito de compras</a></li>
                                     </ul>
                                 </li> 
 								<li class="dropdown"><a href="blog-single.html">Blog <!--<i class="fa fa-angle-down"></i>--></a>
@@ -104,7 +112,7 @@
 										<li><a href="blog-single.html">Blog Único</a></li>
                                     </ul>-->
                                 </li> 
-								<li><a href="contact-us.html" class="active">Contacto</a></li>
+								<li><a href="contact-us.html">Contacto</a></li>
 								<li><a href="Contenido.html">Contenido Página</a></li>
 							</ul>
 						</div>
@@ -123,66 +131,26 @@
     	<div class="bg">
 	    	<div class="row">    		
 	    		<div class="col-sm-12">    			   			
-					<h2 class="title text-center">CONTACTOS DE CON NOSOTROS</h2>    			    				    				
-					<div id="gmap" class="contact-map">
-					</div>
-				</div>			 		
-			</div>    	
-    		<div class="row">  	
-	    		<div class="col-sm-8">
-	    			<div class="contact-form">
-	    				<h2 class="title text-center">PONERSE EN CONTACTO</h2>
-	    				<div class="status alert alert-success" style="display: none"></div>
-				    	<form id="main-contact-form" class="contact-form row" name="contact-form" method="post">
-				            <div class="form-group col-md-6">
-				                <input type="text" name="name" class="form-control" required="required" placeholder="Nombre">
-				            </div>
-				            <div class="form-group col-md-6">
-				                <input type="email" name="email" class="form-control" required="required" placeholder="Correo Electrónico">
-				            </div>
-				            <div class="form-group col-md-12">
-				                <input type="text" name="subject" class="form-control" required="required" placeholder="Tema">
-				            </div>
-				            <div class="form-group col-md-12">
-				                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Su mensaje aquí"></textarea>
-				            </div>                        
-				            <div class="form-group col-md-12">
-				                <input type="submit" name="submit" class="btn btn-primary pull-right" value="Enviar">
-				            </div>
-				        </form>
-	    			</div>
-	    		</div>
-	    		<div class="col-sm-4">
-	    			<div class="contact-info">
-	    				<h2 class="title text-center">DATOS DE CONTACTO</h2>
-	    				<address>
-	    					<p>Tecnológicos BYJ</p>
-							<p>Colombia, Ibagué</p>
-							<p>Móvil: +57 301 603 14 08</p>
-							<p>Móvil: +57 320 960 25 70</p>
-							<p>Móvil: +57 312 282 61 56</p>
-							<p>Email: tecnologicos.byj@gmail.com</p>
-	    				</address>
-	    				<div class="social-networks">
-	    					<h2 class="title text-center">REDES SOCIALES</h2>
-							<ul>
-								<li>
-									<a href="https://www.facebook.com/groups/389326405771482"><i class="fa fa-facebook"></i></a>
-								</li>
-								<li>
-									<a href="https://twitter.com/TecnologicosB"><i class="fa fa-twitter"></i></a>
-								</li>
+					<h2 class="title text-center">Actualizar Datos</h2>   
+					<div class="col-sm-4 col-sm-offset-1">
+						<div class="login-form"><!--login form-->
+							<form action="#">
+								<input type="text" placeholder="Digíte su Nombre(s)" />
+								<input type="text" placeholder="Digíte su Apellido(s)" />
+								<input type="email" placeholder="Digíte su Dirección de Correo Electrónico" />
+								<input type="number" placeholder="Digíte su Teléfono" />
+								<input type="text " placeholder="Digíte su Dirección de Residencia" />
 
-								<li>
-									<a href="https://www.youtube.com/channel/UCCXjFTz5-Hakl8UYVB5KTJg/?guided_help_flow=5"><i class="fa fa-youtube"></i></a>
-								</li>
-							</ul>
-	    				</div>
-	    			</div>
-    			</div>    			
-	    	</div>  
-    	</div>	
-    </div><!--/#contact-page-->
+								<button type="submit" class="btn btn-default">Actualizar</button>
+							</form>
+						</div><!--/login form-->
+					</div>
+				</div>
+			</div>			 		
+		</div>    	
+    		  
+    </div>	
+    
 	
 	<footer id="footer"><!--Footer-->
 		<div class="footer-top">

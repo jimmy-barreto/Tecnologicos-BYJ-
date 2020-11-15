@@ -13,6 +13,7 @@
     <link href="css/animate.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -40,9 +41,9 @@
 					<div class="col-sm-6">
 						<div class="social-icons pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href=""><i class="fa fa-facebook"></i></a></li>
-								<li><a href=""><i class="fa fa-twitter"></i></a></li>
-								<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="https://www.facebook.com/groups/389326405771482"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://twitter.com/TecnologicosB"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.youtube.com/channel/UCCXjFTz5-Hakl8UYVB5KTJg/?guided_help_flow=5"><i class="fa fa-youtube"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -62,8 +63,8 @@
 					<div class="col-md-8 clearfix">
 						<div class="shop-menu clearfix pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href=""><i class="fa fa-user"></i> Cuenta</a></li>
-								<li><a href=""><i class="fa fa-star"></i> Lista de deseos</a></li>
+								<li><a href="cuenta.html"><i class="fa fa-user"></i> Cuenta</a></li>
+								<li><a href="wishlist.html"><i class="fa fa-star"></i> Lista de deseos</a></li>
 								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Revisa</a></li>
 								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Carrito de compras</a></li>
 								<li><a href="login.html"><i class="fa fa-lock"></i> Iniciar sesión</a></li>
@@ -88,23 +89,24 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html" class="active">Inicio</a></li>
-								<li class="dropdown"><a href="#">Tienda<i class="fa fa-angle-down"></i></a>
+								<li><a href="index.html" >Inicio</a></li>
+								<li class="dropdown"><a href="#" class="active">Tienda<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
                                         <li><a href="shop.html">Productos</a></li>
-										<li><a href="product-details.html">Detalle del Producto</a></li> 
+										<li><a href="product-details.html" class="active">Detalle del Producto</a></li> 
 										<li><a href="checkout.html">Revisa</a></li> 
 										<li><a href="cart.html">Carrito de compras</a></li> 
 										<li><a href="login.html">Iniciar Sesión</a></li> 
                                     </ul>
                                 </li> 
-								<li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
+								<li class="dropdown"><a href="blog-single.html">Blog <!--<i class="fa fa-angle-down"></i>--></a>
+                                   <!-- <ul role="menu" class="sub-menu">
                                         <li><a href="blog.html">Blog</a></li>
 										<li><a href="blog-single.html">Blog Único</a></li>
-                                    </ul>
+                                    </ul>-->
                                 </li> 
 								<li><a href="contact-us.html">Contacto</a></li>
+								<li><a href="Contenido.html">Contenido Página</a></li>
 							</ul>
 						</div>
 					</div>
@@ -138,23 +140,18 @@
 									<div class="panel-body">
 										<ul>
 											<li><h5>Categorías:</h5></li>
-											<li><a href="#">Acción</a></li>
-											<li><a href="#">Arcade</a></li>
-											<li><a href="#">Anime</a></li>
-											<li><a href="#">Carreras</a></li>
-											<li><a href="#">Construccion</a></li>
-											<li><a href="#">Deportes</a></li>
-											<li><a href="#">Estrategia</a></li>
-											<li><a href="#">Guerra</a></li>
-											<li><a href="#">Simulacion</a></li>
-											<li><a href="#">Estrategia</a></li>
-											<li><a href="#">Juegos de mesa</a></li>
-											<li><a href="#">Juegos musicales</a></li>
-											<li><a href="#">Rol</a></li>
+											<li><a href="videojuegos/accion.html">Acción</a></li>
+											<li><a href="videojuegos/arcade.html">Arcade</a></li>
+											<li><a href="videojuegos/anime.html">Anime</a></li>
+											<li><a href="videojuegos/carreras.html">Carreras</a></li>
+											<li><a href="videojuegos/deportes.html">Deportes</a></li>
+											<li><a href="videojuegos/estrategia.html">Estrategia</a></li>
+											<li><a href="videojuegos/guerra.html">Guerra</a></li>
 										</ul>
 									</div>
 								</div>
 							</div>
+
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title">
@@ -167,16 +164,11 @@
 								<div id="mens" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="#">Discos Duros</a></li>
-											<li><a href="#">Memorias RAM</a></li>
-											<li><a href="#">Motherboards</a></li>
-											<li><a href="#">Procesadores</a></li>
-											<li><a href="#">Targetas de Red</a></li>
-											<li><a href="#">Targetas de Sonido</a></li>
-											<li><a href="#">Targetas de Video</a></li>
-											<li><a href="#">Ventiladores y Accesorios Refrigeración</a></li>
-											<li><a href="#">Fuente de Poder</a></li>
-											<li><a href="#">Ópticos y Lectores</a></li>
+											<li><a href="repuestospc/discoduros.html">Discos Duros</a></li>
+											<li><a href="repuestospc/ram.html">Memorias RAM</a></li>
+											<li><a href="repuestospc/procesadores.html">Procesadores</a></li>
+											<li><a href="repuestospc/sonido.html">Targetas de Sonido y Video</a></li>
+											<li><a href="repuestospc/fuente.html">Fuente de Poder</a></li>
 										</ul>
 									</div>
 								</div>
@@ -194,12 +186,10 @@
 								<div id="womens" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="#">Display</a></li>
-											<li><a href="#">Cámara</a></li>
-											<li><a href="#">Bateria</a></li>
-											<li><a href="#">Flex de Carga</a></li>
-											<li><a href="#">Flex de Cámara</a></li>
-											<li><a href="#">Placas Base</a></li>
+											<li><a href="repuestoscel/display.html">Display</a></li>
+											<li><a href="repuestoscel/camara.html">Accesorios</a></li>
+											<li><a href="repuestoscel/bateria.html">Bateria</a></li>
+											<li><a href="repuestoscel/flexcamara.html">Flex de Cámara</a></li>
 										</ul>
 									</div>
 								</div>
@@ -218,60 +208,33 @@
 									<div class="panel-body">
 										<ul>
 											<li><h5>Categorías:</h5></li>
-											<li><a href="#">Animación y Modelado</a></li>
-											<li><a href="#">Desarrollo de juegos</a></li>
-											<li><a href="#">Diseño e ilustración</a></li>
-											<li><a href="#">Edición Fotográfica</a></li>
-											<li><a href="#">Educación</a></li>
-											<li><a href="#">Producción de audio</a></li>
-											<li><a href="#">Producción de video</a></li>
+											<li><a href="software/animacion.html">Animación y Modelado</a></li>
+											<li><a href="software/desarrollo.html">Desarrollo de juegos</a></li>
+											<li><a href="software/diseno.html">Diseño e ilustración</a></li>
+											<li><a href="software/edicion.html">Edición Fotográfica</a></li>
+											<li><a href="software/educacion.html">Educación</a></li>
 										</ul>
 									</div>
 								</div>
 							</div>
 
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordian" href="#tecnoligy">
-											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
-											Accesorios para Computador
-										</a>
-									</h4>
-								</div>
-								<div id="tecnoligy" class="panel-collapse collapse">
-									<div class="panel-body">
-										<ul>
-											<li><a href="#">Audífonos</a></li>
-											<li><a href="#">Cables USB</a></li>
-											<li><a href="#">Memorias USB</a></li>
-											<li><a href="#">Reguladores del votaje y UPS</a></li>
-											<li><a href="#">Parlantes</a></li>
-											<li><a href="#">Cargadores</a></li>
-											<li><a href="#">Cables</a></li>
-											<li><a href="#">Adaptadores</a></li>
-											<li><a href="#">Camaras Web</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div><!--/category-products-->		
+						</div><!--/category-products-->
 
 						<div class="brands_products"><!--brands_products-->
 							<h2>MARCAS</h2>
 							<div class="brands-name">
 								<ul class="nav nav-pills nav-stacked">
-									<li><a href="#"> <span class="pull-right"></span>Lenovo</a></li>
-									<li><a href="#"> <span class="pull-right"></span>Intel</a></li>
-									<li><a href="#"> <span class="pull-right"></span>AMD</a></li>
-									<li><a href="#"> <span class="pull-right"></span>HP</a></li>
-									<li><a href="#"> <span class="pull-right"></span>Apple</a></li>
-									<li><a href="#"> <span class="pull-right"></span>Acer</a></li>
-									<li><a href="#"> <span class="pull-right"></span>Toshiba</a></li>
-									<li><a href="#"> <span class="pull-right"></span>Sony </a></li>
-									<li><a href="#"> <span class="pull-right"></span>Alcatel</a></li>
-									<li><a href="#"> <span class="pull-right"></span>Motorola</a></li>
-									<li><a href="#"> <span class="pull-right"></span>Samsung</a></li>
+									<li> <span class="pull-right"></span> <h4>Lenovo</h4> </li>
+									<li> <span class="pull-right"></span> <h4>Intel</h4> </li>
+									<li> <span class="pull-right"></span> <h4>AMD</h4> </li>
+									<li> <span class="pull-right"></span> <h4>HP</h4> </li>
+									<li> <span class="pull-right"></span> <h4>Apple</h4> </li>
+									<li> <span class="pull-right"></span> <h4>Acer</h4> </li>
+									<li> <span class="pull-right"></span> <h4>Toshiba</h4> </li>
+									<li> <span class="pull-right"></span> <h4>Sony</h4> </li>
+									<li> <span class="pull-right"></span> <h4>Alcatel</h4> </li>
+									<li> <span class="pull-right"></span> <h4>Motorola</h4> </li>
+									<li> <span class="pull-right"></span> <h4>Samsung</h4> </li>
 								</ul>
 							</div>
 						</div><!--/brands_products-->
@@ -284,10 +247,6 @@
 							</div>
 						</div><!--/price-range-->
 						
-						<div class="shipping text-center"><!--shipping-->
-							<img src="images/home/shipping.jpg" alt="" />
-						</div><!--/shipping-->
-						
 					</div>
 				</div>
 				
@@ -295,7 +254,7 @@
 					<div class="product-details"><!--product-details-->
 						<div class="col-sm-5">
 							<div class="view-product">
-								<img src="images/product-details/1.jpg" alt="" />
+								<img src="images/product-details/tarjeta_video_0.jpg" alt="" />
 								<h3>ZOOM</h3>
 							</div>
 							<div id="similar-product" class="carousel slide" data-ride="carousel">
@@ -303,21 +262,15 @@
 								  <!-- Wrapper for slides -->
 								    <div class="carousel-inner">
 										<div class="item active">
-										  <a href=""><img src="images/product-details/similar1.jpg" alt=""></a>
-										  <a href=""><img src="images/product-details/similar2.jpg" alt=""></a>
-										  <a href=""><img src="images/product-details/similar3.jpg" alt=""></a>
+										  <img src="images/product-details/tarjeta_video_1.jpg" alt="">
+										  <img src="images/product-details/tarjeta_video_2.jpg" alt="">
+										  <img src="images/product-details/tarjeta_video_3.jpg" alt="">
 										</div>
 										<div class="item">
-										  <a href=""><img src="images/product-details/similar1.jpg" alt=""></a>
-										  <a href=""><img src="images/product-details/similar2.jpg" alt=""></a>
-										  <a href=""><img src="images/product-details/similar3.jpg" alt=""></a>
+										  <img src="images/product-details/tarjeta_video_1.jpg" alt="">
+										  <img src="images/product-details/tarjeta_video_2.jpg" alt="">
+										  <img src="images/product-details/tarjeta_video_3.jpg" alt="">
 										</div>
-										<div class="item">
-										  <a href=""><img src="images/product-details/similar1.jpg" alt=""></a>
-										  <a href=""><img src="images/product-details/similar2.jpg" alt=""></a>
-										  <a href=""><img src="images/product-details/similar3.jpg" alt=""></a>
-										</div>
-										
 									</div>
 
 								  <!-- Controls -->
@@ -332,22 +285,22 @@
 						</div>
 						<div class="col-sm-7">
 							<div class="product-information"><!--/product-information-->
-								<img src="images/product-details/new.jpg" class="newarrival" alt="" />
-								<h2>Anne Klein Sleeveless Colorblock Scuba</h2>
+								<!--<img src="images/product-details/new.jpg" class="newarrival" alt="" />-->
+								<h2>TARJETA DE VIDEO PNY GEFORCE GTX 1660 SUPER 6GB XLR8 GDDR6 6GB NVIDIA</h2>
 								<p>Web ID: 1089772</p>
 								<img src="images/product-details/rating.png" alt="" />
 								<span>
-									<span>US $59</span>
-									<label>Quantity:</label>
-									<input type="text" value="3" />
+									<span>$1,160,900</span>
+									<label>Cantidad:</label>
+									<input type="text" value="1" />
 									<button type="button" class="btn btn-fefault cart">
 										<i class="fa fa-shopping-cart"></i>
-										Add to cart
+										Añadir al Carrito
 									</button>
 								</span>
-								<p><b>Availability:</b> In Stock</p>
-								<p><b>Condition:</b> New</p>
-								<p><b>Brand:</b> E-SHOPPER</p>
+								<p><b>Disponibilidad:</b> En Stock</p>
+								<p><b>Condición:</b> Nuevo</p>
+								<p><b>Marca:</b> NVIDIA</p>
 								<a href=""><img src="images/product-details/share.png" class="share img-responsive"  alt="" /></a>
 							</div><!--/product-information-->
 						</div>
@@ -356,174 +309,50 @@
 					<div class="category-tab shop-details-tab"><!--category-tab-->
 						<div class="col-sm-12">
 							<ul class="nav nav-tabs">
-								<li><a href="#details" data-toggle="tab">DEtalles</a></li>
+								<li><a href="#details" data-toggle="tab">Detalles</a></li>
 								<li><a href="#companyprofile" data-toggle="tab">Perfil de la compañía</a></li>
-								<li><a href="#tag" data-toggle="tab">Etiqueta</a></li>
-								<li class="active"><a href="#reviews" data-toggle="tab">Reseñas (5)</a></li>
+								<li class="active"><a href="#reviews" data-toggle="tab">Reseñas (1)</a></li>
 							</ul>
 						</div>
 						<div class="tab-content">
 							<div class="tab-pane fade" id="details" >
-								<div class="col-sm-3">
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="images/home/gallery1.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+												<p> <h2>Características: </h2> Outputs DisplayPort 1.4, HDMI 2.0b, DVI-D Multi-Screen Yes Resolution 7680 × 4320 @60Hz (Digital)1 <br>
+													<h2>Interface de Memoria: </h2> 192-bit <br>
+													<h2>Tamaño de Memoria (MB): </h2> 6GB GDDR6 <br>
+													<h2>Velocidad de Reloj GPU: </h2> 	Clock Speed 1530 MHz Boost Speed 1830 MHz <br>
+													<h2>Más Información: </h2> <a href="https://tiendaakiba.com/tarjeta-de-video-pny-geforce-gtx-1660-super-6gb-xlr8-gddr6-6gb-nvidia">https://tiendaakiba.com/tarjeta-de-video-pny-geforce-gtx-1660-super-6gb-xlr8-gddr6-6gb-nvidia</a> 
+												</p>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery2.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery3.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery4.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
-											</div>
-										</div>
-									</div>
-								</div>
 							</div>
 							
 							<div class="tab-pane fade" id="companyprofile" >
-								<div class="col-sm-3">
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="images/home/gallery1.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+												<p><h2>Nombre de la Compañia:</h2> Tienda Akiba	
+													<h2>Dirección:</h2> Carrera 16 # 79 - 20 oficina 615	
+													<h2>Nosotros:</h2>
+													Desde el año 2006 atesoramos experiencia en el mercado tecnológico brindando productos y soluciones de calidad, durante este tiempo hemos resuelto las necesidades de miles y miles de clientes logrando en ellos el mayor nivel de satisfacción posible, gracias a la preferencia de realizar sus compras a través de este portal de comercio electrónico.
+													<h2>Más Información: </h2> <a href="http://tiendaakiba.com/index.php?route=common/home">http://tiendaakiba.com/index.php?route=common/home</a>
+												</p>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery3.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery2.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery4.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<div class="tab-pane fade" id="tag" >
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery1.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery2.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery3.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery4.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
-											</div>
-										</div>
-									</div>
-								</div>
 							</div>
 							
 							<div class="tab-pane fade active in" id="reviews" >
 								<div class="col-sm-12">
 									<ul>
-										<li><a href=""><i class="fa fa-user"></i>DAPC</a></li>
+										<li><a href=""><i class="fa fa-user"></i>JJBA</a></li>
 										<li><a href=""><i class="fa fa-clock-o"></i>12:41 PM</a></li>
 										<li><a href=""><i class="fa fa-calendar-o"></i>29 OCT 2020</a></li>
 									</ul>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									<p>El producto llego a tiempo, sin ningún daño, funciona correctamente me gusto el empaque donde llego, y les agradezco por el mensaje que enviaron y el pequeño detalle.</p>
 									<p><b>Escribe tu reseña</b></p>
 									
 									<form action="#">
@@ -544,7 +373,7 @@
 					</div><!--/category-tab-->
 					
 					<div class="recommended_items"><!--recommended_items-->
-						<h2 class="title text-center">ARTÍCULOS RECOMENDADOS</h2>
+						<h2 class="title text-center">Articulos Recomendados</h2>
 						
 						<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
@@ -553,11 +382,12 @@
 										<div class="product-image-wrapper">
 											<div class="single-products">
 												<div class="productinfo text-center">
-													<img src="images/home/recommend1.jpg" alt="" />
-													<h2>$56</h2>
-													<p>Easy Polo Black Edition</p>
-													<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir al Carrito</button>
+													<img src="images/home/gtav - copia.jpg" alt="" />
+													<h2>$99.900</h2>
+													<p>Grand Theft Auto V</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al Carrito</a>
 												</div>
+												
 											</div>
 										</div>
 									</div>
@@ -565,11 +395,12 @@
 										<div class="product-image-wrapper">
 											<div class="single-products">
 												<div class="productinfo text-center">
-													<img src="images/home/recommend2.jpg" alt="" />
-													<h2>$56</h2>
-													<p>Easy Polo Black Edition</p>
-													<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir al Carrito</button>
+													<img src="images/home/CCleaner - copia.png" alt="" />
+													<h2>$103.685</h2>
+													<p>CCleaner Professional</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al Carrito</a>
 												</div>
+												
 											</div>
 										</div>
 									</div>
@@ -577,11 +408,12 @@
 										<div class="product-image-wrapper">
 											<div class="single-products">
 												<div class="productinfo text-center">
-													<img src="images/home/recommend3.jpg" alt="" />
-													<h2>$56</h2>
-													<p>Easy Polo Black Edition</p>
-													<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir al Carrito</button>
+													<img src="images/home/discoduro - copia.JPG" alt="" />
+													<h2>$149.900</h2>
+													<p>Disco Estado Solido 240gb Kingston A400 2.5</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al Carrito</a>
 												</div>
+												
 											</div>
 										</div>
 									</div>
@@ -591,11 +423,12 @@
 										<div class="product-image-wrapper">
 											<div class="single-products">
 												<div class="productinfo text-center">
-													<img src="images/home/recommend1.jpg" alt="" />
-													<h2>$56</h2>
-													<p>Easy Polo Black Edition</p>
-													<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir al Carrito</button>
+													<img src="images/home/DISPLAYHUAWEIP9LITE2017 - copia.png" alt="" />
+													<h2>$250.000</h2>
+													<p>Display Huawei P9 Lite 2017</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al Carrito</a>
 												</div>
+												
 											</div>
 										</div>
 									</div>
@@ -603,11 +436,12 @@
 										<div class="product-image-wrapper">
 											<div class="single-products">
 												<div class="productinfo text-center">
-													<img src="images/home/recommend2.jpg" alt="" />
-													<h2>$56</h2>
-													<p>Easy Polo Black Edition</p>
-													<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir al Carrito</button>
+													<img src="images/home/NetBeans - copia.png" alt="" />
+													<h2>Gratis</h2>
+													<p>Netbeans</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al Carrito</a>
 												</div>
+												
 											</div>
 										</div>
 									</div>
@@ -615,11 +449,12 @@
 										<div class="product-image-wrapper">
 											<div class="single-products">
 												<div class="productinfo text-center">
-													<img src="images/home/recommend3.jpg" alt="" />
-													<h2>$56</h2>
-													<p>Easy Polo Black Edition</p>
-													<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir al Carrito</button>
+													<img src="images/home/tarjetasonido - copia.jpg" alt="" />
+													<h2>$277.900</h2>
+													<p>Tarjeta de Sonido Creative Sound Blaster Audigy Rx 7.1 Pci Express</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al Carrito</a>
 												</div>
+												
 											</div>
 										</div>
 									</div>
