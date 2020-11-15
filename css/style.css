@@ -1,3 +1,16 @@
 .brands_products li{
 	cursor: pointer;
 }
+
+.view-product h3{
+	cursor: pointer;
+}
+
+.item img{
+	cursor: pointer;
+}
+
+
+.cart_description h4{
+	cursor: pointer;
+}
